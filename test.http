@@ -1,0 +1,11 @@
+### Get all products
+GET http://localhost:3000/products
+
+### Add new product
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "Silver Bracelet",
+  "price": 299.99
+}

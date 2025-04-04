@@ -1,0 +1,48 @@
+.App {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header nav {
+    margin-top: 10px;
+  }
+  
+  .header a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .hero {
+    background: #f8f8f8;
+    padding: 50px;
+    margin: 20px 0;
+  }
+  
+  .footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .social-links a {
+    color: white;
+    margin: 0 10px;
+  }
